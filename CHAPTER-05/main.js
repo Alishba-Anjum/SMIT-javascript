@@ -138,21 +138,17 @@ document.write("The area is " + area);
 
 //Ques: 13
 
-// a. Store your favorite snack into a variable
-let favoriteSnack = "chips"; // Replace with your favorite snack
 
-// b. Store your current age into a variable
-let currentAge = 30; // Replace with your current age
+let favoriteSnack = "chocolates";
 
-// c. Store a maximum age into a variable
-let maxAge = 85; // Replace with your expected maximum age
+let currentAge = 15; 
 
-// d. Store an estimated amount per day (as a number)
-let amountPerDay = 3; // Replace with the estimated amount of snacks per day
 
-// e. Calculate the total amount of snacks needed for the rest of your life
+let maxAge = 65; 
+
+let amountPerDay = 3; 
 let yearsRemaining = maxAge - currentAge;
 let totalSnacks = yearsRemaining * 365 * amountPerDay;
 
-// Output the result
+document.write(`<h1>The life supply Calculator</h1>`)
 document.write("<br>"+"You will need " + totalSnacks + " " + favoriteSnack + "s to last you until the ripe old age of " + maxAge + ".");
